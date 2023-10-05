@@ -26,7 +26,11 @@ func _ready():
 	reset()
 
 func _physics_process(_delta):
-	pass
+	if color_rotate >= 0:
+		color_rotate -= color_rotate_index
+		color_rotate_index *= 1.5
+	else:
+		color_rotate_index = 0.1
 
 func _unhandled_input(event):
 	if event.is_action_pressed("menu"):
