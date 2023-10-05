@@ -76,4 +76,6 @@ func comet():
 	pass
 
 func die():
+	var die_sound = get_node("/root/Game/Die_Sound")
+	die_sound.play()
 	queue_free()

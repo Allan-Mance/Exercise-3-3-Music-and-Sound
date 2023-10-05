@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bvi7vabmulja7"]
 
 [ext_resource type="Script" path="res://Brick/Brick.gd" id="1"]
-[ext_resource type="Texture2D" uid="uid://cn1o81kf2s1gw" path="res://Assets/bubble.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cxg15wf588neu" path="res://Assets/bubble.png" id="2"]
 
 [sub_resource type="Curve" id="2"]
 _data = [Vector2(0.00347423, 0.513514), 0.0, 0.0, 0, 0, Vector2(0.510712, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]

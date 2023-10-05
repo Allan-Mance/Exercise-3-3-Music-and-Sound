@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://c7in5g1hk73e1"]
 
 [ext_resource type="Script" path="res://Ball/Ball.gd" id="1"]
-[ext_resource type="Texture2D" uid="uid://fnegrckpn3mp" path="res://Assets/ballGrey.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://dxjwduncxq5mx" path="res://Assets/ballBlue.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c0ti3ge1s2vrr" path="res://Assets/ballGrey.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cehiss20hda8q" path="res://Assets/ballBlue.png" id="3"]
 
 [sub_resource type="PhysicsMaterial" id="2"]
 friction = 0.0

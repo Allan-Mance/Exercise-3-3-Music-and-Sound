@@ -1,6 +1,6 @@
 [gd_resource type="Theme" load_steps=9 format=3 uid="uid://crrif6721qgok"]
 
-[ext_resource type="FontFile" uid="uid://4cc2b15ix0is" path="res://Assets/LeagueGothic-Regular.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://c0l0qm2m1oyq1" path="res://Assets/LeagueGothic-Regular.ttf" id="1"]
 
 [sub_resource type="FontFile" id="1"]
 fallbacks = Array[Font]([ExtResource("1")])
@@ -81,6 +81,8 @@ cache/0/16/0/scale = 1.0
 cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 cache/0/16/0/kerning_overrides/60/0 = Vector2(0, 0)
 cache/0/16/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
 cache/0/60/0/ascent = 0.0
 cache/0/60/0/descent = 0.0
 cache/0/60/0/underline_position = 0.0
@@ -89,6 +91,8 @@ cache/0/60/0/scale = 1.0
 cache/0/60/0/kerning_overrides/16/0 = Vector2(0, 0)
 cache/0/60/0/kerning_overrides/60/0 = Vector2(0, 0)
 cache/0/60/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/60/0/kerning_overrides/20/0 = Vector2(0, 0)
 cache/0/40/0/ascent = 0.0
 cache/0/40/0/descent = 0.0
 cache/0/40/0/underline_position = 0.0
@@ -97,6 +101,28 @@ cache/0/40/0/scale = 1.0
 cache/0/40/0/kerning_overrides/16/0 = Vector2(0, 0)
 cache/0/40/0/kerning_overrides/60/0 = Vector2(0, 0)
 cache/0/40/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/60/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
 
 [resource]
 Button/colors/font_color_disabled = Color(0.286275, 0.313726, 0.341176, 1)
