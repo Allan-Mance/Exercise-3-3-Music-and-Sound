@@ -31,6 +31,7 @@ func _physics_process(_delta):
 		color_rotate_index *= 1.5
 	else:
 		color_rotate_index = 0.1
+	sway_index += sway_period
 
 func _unhandled_input(event):
 	if event.is_action_pressed("menu"):

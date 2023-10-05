@@ -46,6 +46,9 @@ func _ready():
 	elif score >= 40: color_index = 6
 	else: color_index = 7
 	$ColorRect.color = colors[color_index]
+	sway_initial_position = $ColorRect.position
+	sway_randomizer = Vector2(randf()*6-3.0, randf()*6-3.0)
+	
 
 func _physics_process(_delta):
 	if dying and not $Confetti.emitting and not tween:
@@ -58,6 +61,9 @@ func _physics_process(_delta):
 		elif not color_completed:
 			$ColorRect.color = colors[color_index]
 			color_completed = true
+	var pos_x = (sin(Global.sway_index)* (sway_amplitude + sway_randomizer.x))
+	var pos_y = (cos(Global.sway_index)* (sway_amplitude + sway_randomizer.y))
+	$ColorRect.position = Vector2(sway_initial_position.x + pos_x, sway_initial_position.y + pos_x)
 
 func hit(_ball):
 	Global.color_rotate = Global.color_rotate_amount
